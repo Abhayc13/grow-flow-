@@ -113,58 +113,6 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="main-container-five">
-        <div class="content-wrapper">
-            <div class="image">
-                <img src="./image/Home-Tabber-Line.webp" alt="">
-            </div>
-            <div class="tabber-section">
-                <div class="tabber-left">
-                    <div class="tabber-head">
-                        <h6>WHO WE SERVICE</h6>
-                    </div>
-                    <div class="tabber">
-                        <ul>
-                            <li class="active">
-                                Cultivators & Producers 
-                            </li>
-                            <li>Processors & Manufacturers</li>
-                            <li>Distributors</li>
-                            <li>Retailers & Dispensaries</li>
-                            <li>Live - Marketplace</li>
-                            <li>Insights - Analytics & Reporting</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tabber-right">
-                    <div class="tabber3" id=" Cultivators & Producers">
-                        <div class="image1">
-                            <img src="./image/image1.webp" alt="">
-                        </div>
-                        <div class="heading">
-                            <h4>Grow your business, not your paperwork</h4>
-                        </div>
-                        <div class="descripition">
-                            <p>Streamline your grow operation from seed-to-sale with best-in-class
-                                 tools for propagation, harvesting, waste management, nutrient feeding,
-                                  testing, and selling.
-                            </p>
-                        </div>
-                        <div class="button1">
-                            <a href="#">LEARN MORE</a><span><i class="fa-solid fa-arrow-right"></i></span>
-                        </div>
-                    </div>
-                    <div class="tabber4" id="Processors & Manufacturers">
-                        <div class="image2">
-                            <img src="./image/image1.webp" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <script>
     var a = 0;
 $(window).scroll(function () {
@@ -200,24 +148,5 @@ $(window).scroll(function () {
         a = 1;
     }
 });
-</script>
-<script>
-    var button = document.getElementsByClassName('active'),
-    tabContent = document.getElementsByClassName('tabber-right');
-button[0].classList.add('active');
-tabContent[0].style.display = 'block';
-
-
-function city(e, city) {
-    var i;
-    for (i = 0; i < button.length; i++) {
-        tabContent[i].style.display = 'none';
-        button[i].classList.remove('active');
-    }
-    document.getElementById(city).style.display = 'block';
-    e.currentTarget.classList.add('active');
-}
-
-</script>
 </body>
 </html>
