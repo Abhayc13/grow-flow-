@@ -1,0 +1,567 @@
+.module-1{
+padding: 66px 0px 120px 0px;
+background-color: #F7F8FC;
+}
+.main-container-one{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-between;
+}
+.left-flex-one{
+flex-basis: 57%;
+
+}
+.right-flex-one{
+flex-basis: 40%;
+margin-left: 3%;
+padding: 78px 0px;
+
+
+}
+.contents-one h1{
+margin-bottom: 15px;
+flood-color: #030047;
+}
+.contents-one .contents-one-para {
+
+
+max-width: 535px;
+display: inline-block;
+padding: 10px 0px 20px 0px;
+}
+.contents-one .contents-one-para p{
+color: #030047;
+margin-bottom: 15px;
+}
+.contents-two .pop-up-img{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 234px;
+width: 100%;
+box-shadow: 0 1.8px 1.2px rgb(0 0 0 / 3%), 0 5.7px 4.3px rgb(0 0 0 / 5%), 0 10.5px 8px rgb(0 0 0 / 6%), 0 18.3px 13.9px rgb(0 0 0 / 7%);
+
+}
+.contents-two .btn_color{
+
+width: 100%;
+max-width: 60px;
+min-height: 40px;
+background-color: #030047;
+position: absolute;
+z-index: 2;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+.contents-two {
+position: relative;
+z-index: 1;
+}
+.btn_color i{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #fff;
+}
+
+a.cta {
+font-size: 13px;
+letter-spacing: 1.17px;
+line-height: 17px;
+padding: 16px 32px;
+text-align: center;
+display: inline-block;
+position: relative;
+z-index: 1;
+text-transform: uppercase;
+box-shadow: none;
+color: #030047;
+background: transparent;
+border: 2px solid #030047;
+font-weight: 700;
+transition: .3s all ease-in-out;
+-webkit-transition: .3s all ease-in-out;
+-moz-transition: .3s all ease-in-out;
+-ms-transition: .3s all ease-in-out;
+outline: 0;
+}
+span.btn {
+    display: block;
+    position: relative;
+    border-radius: 0.05rem;
+    -webkit-transform: translate(10px,-10px);
+    -ms-transform: translate(10px,-10px);
+    transform: translate(10px,-10px);
+    -webkit-transition: -webkit-transform 150ms ease-out;
+    transition: -webkit-transform 150ms ease-out;
+    transition: transform 150ms ease-out;
+    transition: transform 150ms ease-out,-webkit-transform 150ms ease-out;
+}
+
+span.btn-hover {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.05rem;
+    background-color: #ffcc3e;
+    box-shadow: 0 0 0 1px #ffcc3e;
+    transform: translate(5px,-10px);
+    transition: transform 150ms ease-out;
+    z-index: -1;
+    border: 2px solid #030047;
+    margin-left: 4px;
+}
+a.cta:hover {
+    transition: .3s all ease-in-out;
+    background-color: #ffcc3e;
+}
+
+a.cta:hover span.btn {
+    transform: translate(0px,-4px);
+    transition: transform 150ms ease-out,-webkit-transform 150ms ease-out;
+}
+a.cta:hover span.btn-hover {
+    transform: translate(-2px,-4px);
+    transition: transform 150ms ease-out,-webkit-transform 150ms ease-out;
+}
+.main-container-two
+{
+    padding: 120px 0px 20px;
+    background: #ffffff
+}
+.heading-two
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 570px;
+    text-align: center;
+}
+.main-container-three
+{
+    padding: 29px 0px 58px
+}
+.three-col
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-container-three h3
+{
+    font-size: 55px;
+    color: #695ff7;
+    letter-spacing: -1.1px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.main-container-three p
+{
+    font-size: 15px;
+    line-height: 27px;
+    color: #030047;
+    font-weight: 500;
+    max-width: 190px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+}
+.main-container-three a
+{
+    font-size: 15px;
+    line-height: 27px;
+    color: #030047;
+    font-weight: 500;
+}
+h3.counter
+{
+    display: inline-block;
+}
+.card1
+{
+    padding: 20px 0 0;
+    overflow-wrap: anywhere;
+    max-width: 300px;
+    border-right: 1px solid #ccc;
+    flex-basis: 28%;
+    float: left;
+    margin-right: 6.43%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.card2
+{
+    padding: 20px 0 0;
+    overflow-wrap: anywhere;
+    max-width: 300px;
+    flex-basis: 28%;
+    float: left;
+    margin-right: 6.43%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.card3
+{
+    padding: 20px 0 0;
+    overflow-wrap: anywhere;
+    max-width: 300px;
+    flex-basis: 28%;
+    float: left;
+    margin-right: 5.43%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    position: relative;
+    border-left: 1px solid #ccc;
+}
+.button 
+{
+    margin-top: 55px;
+    align-items: center;
+}
+.card4
+{
+    text-align: center;
+}
+.main-container-four
+{
+    position: relative;
+    z-index: 1;
+    padding: 105px 0 95px;
+}
+.main-container-four::before
+{
+    background-color: #F7F8FC;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 75.55%;
+    z-index: -1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.heading-three
+{
+    display: inline-block;
+    max-width: 485px;
+}
+.heading-text
+{
+    max-width: 592px;
+    padding: 13px 0px 22px;
+}
+.main-container-four .button
+{
+    margin-top: 20px;
+}
+.card3 span
+{
+    display: inline-block;
+    font-size: 55px;
+    color: #695ff7;
+    letter-spacing: -1.1px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.card2 span
+{
+    display: inline-block;
+    font-size: 55px;
+    color: #695ff7;
+    letter-spacing: -1.1px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+img
+{
+    max-width: 100%;
+    border: 0;
+}
+.main-container-five
+{
+    position: relative;
+    padding: 102px 0px 50px;
+    z-index: 1;
+}
+.image
+{
+    margin-bottom: 41px;
+}
+.tabber-head h6
+{
+    margin-left: 85px;
+}
+li.active
+{
+    color:  #695ff7 !important;
+    padding-bottom: 38px;
+    margin-bottom: 37px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.56px;
+    line-height: 34px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    padding-left: 85px;
+}
+li.active::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 15px;
+    height: 49px;
+    background: #695ff7;
+}
+li.active::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    height: 2px;
+    background: #ccc;
+    width: 90%;
+    opacity: .5;
+}
+.tabber
+{
+    padding-top: 31px;
+}
+li:hover
+{
+    color: #695ff7 !important;
+    transition: .3s all;
+}
+.tabber-left
+{
+    width: 40%;
+    box-sizing: border-box;
+}
+.tabber-right
+{
+    width: 57%;
+    float: left;
+}
+.tabber3
+{
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 18px;
+    display: block;
+}
+.image1
+{
+    box-shadow: 0 1.8px 1.2px rgb(0 0 0 / 3%), 0 5.7px 4.3px rgb(0 0 0 / 5%), 0 10.5px 8px rgb(0 0 0 / 6%), 0 18.3px 13.9px rgb(0 0 0 / 7%);
+    margin-bottom: 41px;
+}
+.tabber-section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabber span.active
+{
+    color: #695ff7 !important;
+}
+.descripition
+{
+    padding: 25px 0px 16px;
+}
+.button1 a
+{
+    font-size: 13px;
+    letter-spacing: 1.17px;
+    color: #030047;
+    font-weight: 700;
+    font-weight: bold;
+}
+.button1 a:hover
+{
+    color: #ffcc3e;
+}
+.fa-solid
+{
+    color: #ffcc3e;
+    font-size: 20px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+@media (max-width:767px) {
+    .main-container-one
+    {
+        display: block;
+    }
+    .contents-two .pop-up-img
+    {
+        min-height: 180px;
+        max-width: 350px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .right-flex-one
+    {
+        padding: 40px 0px ;
+    }
+    .three-col
+    {
+        display: block;
+        text-align: center;
+    }
+    .card1
+    {
+        border-bottom: 1px solid #ccc;
+        border-right: none;
+        float: none;
+        margin-right: 0%;
+        padding-bottom: 45px;
+        max-width: 400px;
+        margin: 40px auto 0px;
+    }
+    .main-container-three h3
+    {
+        font-size: 42px;
+    }
+    .main-container-two
+    {
+        padding: 50px 0px 20px
+    }
+    .card2
+    {
+        float: none;
+        margin-right: 0%;
+        padding-bottom: 45px;
+        max-width: 400px;
+        margin: 40px auto 0px;
+    }
+    .card3
+    {
+        border-top: 1px solid #ccc;
+        border-left: none;
+        float: none;
+        margin-right: 0%;
+        padding-top: 45px;
+        max-width: 400px;
+        margin: 40px auto 0px;
+    }
+    .heading-three h2
+    {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .main-container-four
+    {
+        padding: 50px 0px 80px;
+    }
+    .main-container-four .button
+    {
+        padding: 16px 48px;
+    }
+    .card2 span
+    {
+        font-size: 42px;
+    }
+    .card3 span
+    {
+        font-size: 42px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .left-flex-one 
+    {
+        flex-basis: 47%;
+    }
+    .contents-two .pop-up-img
+    {
+        min-height: 200px;
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .three-col
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-container-three h3
+    {
+        font-size: 35px;
+    }
+    .card1
+    {
+        flex-basis: 27%;
+        padding-right: 6px;
+    }
+    .card2
+    {
+        flex-basis: 27%;
+    }
+    .card3
+    {
+        flex-basis: 27%;
+    }
+    .heading-three h2
+    {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .heading-text p
+    {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main-container-four::before
+    {
+        width: 82%;
+    }
+    .main-container-four
+    {
+        padding: 105px 0px 95px;
+    }
+    .main-container-three
+    {
+        padding-bottom: 114px;
+    }
+    .card2 span
+    {
+        font-size: 35px;
+    }
+    .card3 span
+    {
+        font-size: 35px;
+    }
+}
+@media (max-width:441px) {
+    .card1
+    {
+        max-width: none;
+    }
+    .card2
+    {
+        max-width: none;
+    }
+    .card3
+    {
+        max-width: none;
+    }
+}
