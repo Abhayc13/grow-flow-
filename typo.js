@@ -1,80 +1,78 @@
-$('.contents-two a').fancybox({
-    caption: function (instance, item) {}
-});
-
-
-$('.main-container-five .tabber li:first-child').addClass('active');
-$('.main-container-five .tabber-right .tabber_deta').hide();
-$('.main-container-five .tabber-right .tabber_deta:first-child').show();
-
-$('.main-container-five .tabber li').click(function () {
-    $('.main-container-five .tabber li').removeClass('active');
-    $(this).addClass('active');
-    $('.tabber_deta').hide();
-
-    var activeTab = $(this).find('b').attr('href');
-    $(activeTab).fadeIn();
-    return false;
-});
-
-$('.main-container-five').addClass("load")
-
-
-
+//  HERO-BANNER STARTS
+$('.hero-link a').fancybox({
+    caption : function( instance, item ) {}
+  });
+// HERO-BANNER ENDS
+// COUNTER STARTS
 var a = 0;
 $(window).scroll(function () {
-    var oTop = $(".three-col").offset().top - window.innerHeight;
+    var oTop = $(".multi-card").offset().top - window.innerHeight;
     if (a == 0 && $(window).scrollTop() > oTop) {
         $(".counter").each(function () {
             var $this = $(this),
                 countTo = $this.attr("data-number");
             $({
                 countNum: $this.text()
-            }).animate({
-                countNum: countTo
-            }, {
-                duration: 850,
-                easing: "swing",
-                step: function () {
-                    $this.text(
-                        Math.ceil(this.countNum).toLocaleString("en")
-                    );
+            }).animate(
+                {
+                    countNum: countTo
                 },
-                complete: function () {
-                    $this.text(
-                        Math.ceil(this.countNum).toLocaleString("en")
-                    );
+                {
+                    duration: 850,
+                    easing: "swing",
+                    step: function () {
+                        //$this.text(Math.ceil(this.countNum));
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                    },
+                    complete: function () {
+                        $this.text(
+                            Math.ceil(this.countNum).toLocaleString("en")
+                        );
+                        //alert('finished');
+                    }
                 }
-            });
+            );
         });
         a = 1;
     }
 });
-
-let drpdown = function () {
-    if($(window).width() < 768){
-      // jquery for dropdown
-      $(function() {
-        var list = $('.tabber');
-        var link = $('.mobile-view');
-        link.click(function(e) {
-          e.preventDefault();
-          list.slideToggle(200);
-        });
-        list.find('li').click(function() {
-          var text = $(this).html();
-          var icon = '<i class="fa fa-chevron-down"></i>';
-          link.html(text);
-          list.slideToggle(200);
-        });
+// COUNTER ENDS
+// TABBER STARTS
+$(document).ready(function(){
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+        $('ul.tabs li').removeClass('current');
+        $('.tabber-content').removeClass('current');
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+    $(window).on('load resize orientationchange', function() {
+        if ($(window).width() > 767) {
+        }
+        else{
+          $(function() {
+            var list = $('.tabs');
+            var link = $('.mobile-view');
+            link.click(function(e) {
+              e.preventDefault();
+              list.slideDown(200);
+            });
+            list.find('li').click(function() {
+              var text = $(this).html();
+              link.html(text);
+              list.slideUp(200);
+            });
+          });
+        }
       });
-    }
-  }
-  $(window).resize(function() {
-    if($(window).width() < 768){
-      drpdown();
-      location.reload()
-    }
-  });
-  
-  drpdown();
+})
+// TABBER ENDS
+
+
+
+
+
+
+
