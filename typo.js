@@ -1,9 +1,7 @@
-//  HERO-BANNER STARTS
+
 $('.hero-link a').fancybox({
     caption : function( instance, item ) {}
   });
-// HERO-BANNER ENDS
-// COUNTER STARTS
 var a = 0;
 $(window).scroll(function () {
     var oTop = $(".multi-card").offset().top - window.innerHeight;
@@ -21,7 +19,6 @@ $(window).scroll(function () {
                     duration: 850,
                     easing: "swing",
                     step: function () {
-                        //$this.text(Math.ceil(this.countNum));
                         $this.text(
                             Math.ceil(this.countNum).toLocaleString("en")
                         );
@@ -30,7 +27,6 @@ $(window).scroll(function () {
                         $this.text(
                             Math.ceil(this.countNum).toLocaleString("en")
                         );
-                        //alert('finished');
                     }
                 }
             );
@@ -38,8 +34,6 @@ $(window).scroll(function () {
         a = 1;
     }
 });
-// COUNTER ENDS
-// TABBER STARTS
 $(document).ready(function(){
     $('ul.tabs li').click(function(){
         var tab_id = $(this).attr('data-tab');
@@ -68,11 +62,14 @@ $(document).ready(function(){
         }
       });
 })
-// TABBER ENDS
 
 
 
-
-
-
+$('.slider-block').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false
+  });
 
