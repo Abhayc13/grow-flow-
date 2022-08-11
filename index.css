@@ -95,8 +95,11 @@ a.hero-button-child:hover span.button-hover
 .pop-up-img
 {
     background-image: url(./growflowimg/handwave.jpg);
+    box-shadow: 0 1.8px 1.2px rgb(0 0 0 / 3%), 0 5.7px 4.3px rgb(0 0 0 / 5%), 0 10.5px 8px rgb(0 0 0 / 6%), 0 18.3px 13.9px rgb(0 0 0 / 7%);
     min-height: 233.13px;
+    background-size: cover;
 }
+
 .hero-link
 {
     position: relative;
@@ -140,6 +143,16 @@ a.hero-button-child:hover span.button-hover
     flex-basis: 31.7%;
     padding-top: 20px;
     text-align: center;
+}
+.mobile-view::after
+{
+    content: '\f0d7';
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
 }
 .multi-card:not(:last-child){
     border-right: 1px solid var(--lightgrey);
@@ -356,6 +369,268 @@ a.hero-button-child:hover span.button-hover
     z-index: 1;
     text-align: center;
 }
+.background-image
+{
+    padding: 75px 0px 62px;
+}
+.background-image .gradient-colour::before
+{
+    content: '';
+    position: absolute;
+    bottom: -90px;
+    right: 90px;
+    background-image: url(https://4705179.fs1.hubspotusercontent-na1.net/hubfs/4705179/growflow_website_2020/home_page/Happy%20Golden.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 161px;
+    height: 186px;
+}
+.background-image .gradient-colour
+{
+    border-radius: 10px;
+    padding: 110px 0px 110px;
+    position: relative;
+    z-index: 1;
+}
+.content1
+{
+    background: transparent linear-gradient(8deg,#030047 0%,#695ff7 100%) 0% 0%;
+}
+.heading-content
+{
+    text-align: center;
+    color: #fff;
+}
+.descripition
+{
+    max-width: 780px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 25px 0px 40px;
+    text-align: center;
+    color: #fff;
+}
+.yellowbtn1 a
+{
+    color: #fff;
+}
+.bottom-text
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.left-side
+{
+    margin-right: 43px;
+}
+.left-side h2
+{
+    font-size: 65px;
+    color: #ffcc3e;
+    letter-spacing: -1.3px;
+}
+.left-side p
+{
+    font-weight: 300;
+    color: #fff;
+    padding-top: 18px
+}
+.right-side li span
+{
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 30px;
+    position: relative;
+    top: -7px;
+}
+.right-side ul li
+{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    line-height: 44px;
+    padding: 8px 0px 8px 30px;
+    color: #fff;
+    border-bottom: 1px solid rgb(255 255 255 / .5)
+}
+.right-side ul li a
+{
+    color: #fff;
+}
+.slider
+{
+    padding: 97px 0px 50px;
+}
+.content-data
+{
+    padding-left: 100px;
+}
+.content-data .image img
+{
+    width: 60px;
+    position: relative;
+    top: -7px;
+}
+.content-base
+{
+    margin-left: 37px;
+}
+.data-text
+{
+    max-width: 664px;
+    padding-bottom: 23px;
+}
+.content-base p
+{
+    color: #030047;
+}
+.content-base h6
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.44px;
+    line-height: 17px;
+}
+.slick-list button
+{
+    display: inline-block;
+}
+.slick-slider button
+{
+    display: inline-block;
+}
+.hero-image-two
+{
+    padding: 170px 0px 60px;
+}
+.main
+{
+    display: flex;
+}
+.hero-image-heading
+{
+    max-width: 467px;
+}
+.hero-image-heading h3
+{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+}
+.descripition-two p
+{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #030047;
+}
+.descripition-two
+{
+    max-width: 468px;
+    padding: 24px 0px 26px;
+    display: inline-block;
+}
+.head1 .yellowbtn1
+{
+    margin-left: 0%;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.head1 .yellowbtn1 a
+{
+    color: black;
+    font-weight: bold;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.head2
+{
+    flex-basis: 50%;
+    margin-left: 7%;
+}
+.bg-image5
+{
+    background-image: url(./image/Integrations-Hero.webp);
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    max-width: 467px;
+    min-height: 429px;
+}
+.banner-image-two
+{
+    padding: 100px 0px -125px;
+}
+.gradient-colour1
+{
+    background: transparent linear-gradient(8deg,#030047 0%,#695ff7 100%) 0% 0%;
+    border-radius: 10px;
+    padding-top: 137px;
+    padding-bottom: 104px;
+    position: relative;
+    overflow: hidden;
+}
+.content2
+{
+    text-align: center;
+}
+.icon
+{
+    position: absolute;
+    left: -80px;
+    top: -70px;
+}
+.icon img
+{
+    max-width: 100%;
+    border: 0;
+}
+.heading-content1 h2
+{
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+    color: #fff;
+}
+.content2 .descripition-three p
+{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+}
+.content2 .descripition-three
+{
+    padding: 27px 0px 47px;
+    max-width: 790px;
+    margin: 0 auto;
+    width: 100%;
+}
+.yellowbtn2
+{
+    border: 2px solid var(--sunglow);
+    background-color:var(--sunglow) ;
+    padding: 16px 32px;
+    transition: .3s all;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 700;
+    letter-spacing: 1.13px;
+}
+.yellowbtn2:hover
+{
+    background-color: transparent;
+    color: #fff;
+}
 @media (max-width:1024px)
 {
     .hero-cont .hero-heading h1
@@ -435,8 +710,13 @@ a.hero-button-child:hover span.button-hover
 {
     .counter-model
     {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .tabber
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .counter-multi-card
     {
@@ -452,8 +732,7 @@ a.hero-button-child:hover span.button-hover
     .multi-card 
     {
         padding-bottom: 40px;
-        margin-top: 40px !important;
-    }
+        padding-top: 40px;
 }
 @media (max-width:480px)
 {
@@ -510,56 +789,15 @@ a.hero-button-child:hover span.button-hover
         font-size: 30px;
         line-height: 44px;
     }
-}
-@media (max-width:480px)
-{
-    .buisness-background {
-        padding: 50px 0 70px;
+    .background-image .gradient-colour
+    {
+        padding: 50px 0px 50px;
     }
-}
-@media (max-width:1024px)
-{
-    .tabber-background {
-        min-height: 178px;
-        margin-bottom: 55px;
+    .content1
+    {
+        border-radius: 10px;
+        padding-bottom: 50px;
     }
-    .tabber-left-heading {
-        margin-left: 34px;
-        margin-bottom: 5px;
-    }
-    .tabber-list {
-        padding-top: 25px;
-    }
-    .tabber-left {
-        flex-basis: 28%;
-        margin-right: 2.75%;
-    }
-    .tabs li.tab-link.current {
-        padding-bottom: 18px;
-        margin-bottom: 18px;
-    }
-    .tabs li.tab-link {
-        margin-bottom: 15px;
-    }
-    .tabs li {
-        padding-left: 44px;
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .tabber-right {
-        flex-basis: 36%;
-        padding-top: 18px;
-    }
-    .tabber-right .tabber-content .tabber-image img {
-        max-width: 416px;
-    }
-    .tabber-content.current {
-        display: block;
-        margin: auto 35px;
-    }
-}
-@media (max-width:767px)
-{
     .tabber-list 
     {
         position: relative;
@@ -613,6 +851,153 @@ a.hero-button-child:hover span.button-hover
     {
         margin-right: 0;
     }
+    .background-image
+    {
+        padding: 10px 0px 22px;
+    }
+    .descripition
+    {
+        padding: 0px 20px;
+    }
+    .heading-content h3
+    {
+        font-size: 40px;
+        padding: 0px 10px;
+        line-height: 1.2;
+    }
+    .descripition p
+    {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .bottom-text
+    {
+        display: block;
+        text-align: center;
+    }
+    .left-side
+    {
+        margin-right: 0%;
+    }
+    .background-image .gradient-colour::before
+    {
+        bottom: -90px;
+    right: 18px;
+    width: 125px;
+    height: 125px;
+    }
+    .left-side h2
+    {
+        font-size: 50px;
+    }
+    .right-side ul li
+    {
+        margin-top: 20px;
+        padding: 8px 0px 8px 0px;
+    }
+    .content-data
+    {
+        padding-left: 0;
+    }
+    .content-data .image img
+    {
+        width: 20px;
+    }
+    .slider
+    {
+        padding-top: 40px;
+    }
+    .hero-image-two
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main
+    {
+        display: block;
+    }
+    .hero-image-heading h3
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .descripition-two
+    {
+        padding-bottom: 0;
+    }
+    .head2
+    {
+        margin-left: 0%;
+        margin-top: 30%;
+    }
+    .icon
+    {
+        width: 240px;
+    }
+    .heading-content1 h2
+    {
+        padding: 0px 20px;
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .gradient-colour1
+    {
+        padding-top: 70px;
+    }
+    .descripition-three p
+    {
+        padding: 0px 20px;
+    }
+    .bg-image5
+    {
+        min-height: 305px;
+    }
+}
+@media (max-width:480px)
+{
+    .buisness-background {
+        padding: 50px 0 70px;
+    }
+}
+@media (max-width:1143px)
+{
+    .tabber-background {
+        min-height: 178px;
+        margin-bottom: 55px;
+    }
+    .tabber-left-heading {
+        margin-left: 34px;
+        margin-bottom: 5px;
+    }
+    .tabber-list {
+        padding-top: 25px;
+    }
+    .tabber-left {
+        flex-basis: 28%;
+        margin-right: 2.75%;
+    }
+    .tabs li.tab-link.current {
+        padding-bottom: 18px;
+    }
+    .tabs li.tab-link {
+        margin-bottom: 15px;
+    }
+    .tabs li {
+        padding-left: 44px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .tabber-right {
+        flex-basis: 36%;
+        padding-top: 18px;
+    }
+    .tabber-right .tabber-content .tabber-image img {
+        max-width: 416px;
+    }
+    .tabber-content.current {
+        display: block;
+        margin: auto 35px;
+    }
 }
 @media (max-width:480px)
 {
@@ -620,4 +1005,5 @@ a.hero-button-child:hover span.button-hover
     {
         margin: 0;
     }
+}
 }
