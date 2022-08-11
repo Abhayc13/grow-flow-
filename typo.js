@@ -72,4 +72,3 @@ $('.slider-block').slick({
     autoplay: true,
     arrows: false
   });
-
