@@ -37,6 +37,11 @@ body{
     background-size: cover;
     width: 100%;
 }
+.bg-section1{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
 .yellowbtn
 {
     border: 2px solid var(--sunglow);
