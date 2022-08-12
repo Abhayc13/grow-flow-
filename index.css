@@ -34,7 +34,7 @@
 {
     flex-basis: 40.17%;
     margin-left: 2.47%;
-    padding: 76px 0;
+    padding: 50px 0;
 }
 .hero-button a.hero-button-child
 {
@@ -244,7 +244,6 @@ a.hero-button-child:hover span.button-hover
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
 }
 .tabber-left 
@@ -395,6 +394,7 @@ a.hero-button-child:hover span.button-hover
 .content1
 {
     background: transparent linear-gradient(8deg,#030047 0%,#695ff7 100%) 0% 0%;
+    border-radius: 10px;
 }
 .heading-content
 {
@@ -454,6 +454,16 @@ a.hero-button-child:hover span.button-hover
     line-height: 44px;
     padding: 8px 0px 8px 30px;
     color: #fff;
+}
+.head1
+{
+    margin-top: 51px;
+}
+ul
+{
+    border-left: 1px solid rgb(255 255 255 / .5)
+}
+.right-side ul li:not(:last-child) {
     border-bottom: 1px solid rgb(255 255 255 / .5)
 }
 .right-side ul li a
@@ -505,6 +515,7 @@ a.hero-button-child:hover span.button-hover
 .hero-image-two
 {
     padding: 170px 0px 60px;
+    margin-bottom: 75px;
 }
 .main
 {
@@ -961,10 +972,6 @@ a.hero-button-child:hover span.button-hover
 }
 @media (max-width:1143px)
 {
-    .tabber-background {
-        min-height: 178px;
-        margin-bottom: 55px;
-    }
     .tabber-left-heading {
         margin-left: 34px;
         margin-bottom: 5px;
@@ -992,7 +999,7 @@ a.hero-button-child:hover span.button-hover
         padding-top: 18px;
     }
     .tabber-right .tabber-content .tabber-image img {
-        max-width: 416px;
+        max-width: 100%;
     }
     .tabber-content.current {
         display: block;
