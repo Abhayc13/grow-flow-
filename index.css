@@ -583,6 +583,7 @@ ul
     padding-bottom: 104px;
     position: relative;
     overflow: hidden;
+    bottom: -125px;
 }
 .content2
 {
@@ -640,6 +641,64 @@ ul
 {
     background-color: transparent;
     color: #fff;
+}
+.fotter-section
+{
+    background-color: #030047;
+    padding: 245px 0px 165px;
+}
+.fotter
+{
+    display: flex;
+}
+.left-fotter
+{
+    display: flex;
+}
+.left
+{
+    display: block;
+}
+.left a
+{
+    padding-right: 30px;
+}
+.left a:hover
+{
+    color: #ffcc3e;
+    transition: 0.3s all;
+}
+.right-fotter
+{
+    display: flex;
+    width: 100%;
+    margin-right: -1%;
+}
+.right-fotter .right
+{
+    background-image: url(./image/GrowFlow-Dama-Logo-Reversed.svg);
+    max-width: 100%;
+    width: 347px;
+    background-repeat: no-repeat;
+    min-height: auto;
+}
+.right1
+{
+    margin-bottom: 80px;
+}
+.right1 i .facebook::before
+{
+    content: "\f39e";
+}
+.right1 i .facebook
+{
+    font-size: 28px;
+}
+.right1 ul
+{
+    list-style-type: none;
+    margin: 0px;
+    text-align: right;
 }
 @media (max-width:1024px)
 {
