@@ -79,6 +79,17 @@ h4
     line-height: 38px;
     font-weight: 700;
 }
+h5
+{
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 700;
+    font-family: inter,sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    margin-right: 93px;
+}
 h6
 {
     font-size: 16px;
@@ -123,6 +134,34 @@ li
 .yellowbtn2
 {
     padding: 16px 15px;
+}
+.left-fotter ul li a
+{
+    font-size: 16px;
+    color: #ffffffff;
+    font-weight: 300;
+}
+.left ul
+{
+    border-left: none;
+}
+.right1
+{
+    margin-bottom: 80px;
+}
+.right1 i .facebook::before
+{
+    content: "\f39e";
+}
+.right1 i .facebook
+{
+    font-size: 28px;
+}
+.right1 ul
+{
+    list-style-type: none;
+    margin: 0px;
+    text-align: right;
 }
 @media (max-width:767px) {
     .yellowbtn1 
