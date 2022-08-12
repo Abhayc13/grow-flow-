@@ -34,7 +34,7 @@ body{
 }
 .bg-section{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
 }
 .yellowbtn
