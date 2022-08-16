@@ -34,6 +34,7 @@
 {
     flex-basis: 40.17%;
     margin-left: 2.47%;
+    margin-top: 55px;
 }
 .hero-button a.hero-button-child
 {
@@ -127,7 +128,7 @@ a.hero-button-child:hover span.button-hover
 }
 .counter-model
 {
-    padding-top: 110px;
+    padding-top: 107px;
     padding-bottom: 114px;
 }
 .counter-multi-card {
@@ -231,7 +232,7 @@ a.hero-button-child:hover span.button-hover
 .tabber-background
 {
     background-image: url(./image/Home-Tabber-Line.webp);
-    min-height: 270px;
+    min-height: 271px;
     margin-bottom: 41px;
 }
 .tabber
@@ -361,11 +362,13 @@ a.hero-button-child:hover span.button-hover
 {
     display: none;
     border: 2px solid #695ff7;
-    padding: 5px 20px 5px;
+    padding: 10px 20px 10px;
     margin-bottom: 0px;
     position: relative;
     z-index: 1;
     text-align: center;
+    color: #695ff7;
+    font-weight: bold;
 }
 .background-image
 {
@@ -471,17 +474,20 @@ ul
 }
 .slider
 {
-    padding: 97px 0px 50px;
+    padding: 125px 0px 50px;
 }
 .content-data
 {
     padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .content-data .image img
 {
     width: 60px;
     position: relative;
     top: -7px;
+    transform: scaleX(-1);
 }
 .content-base
 {
@@ -511,14 +517,10 @@ ul
 {
     display: inline-block;
 }
-.hero-image-two
-{
-    padding: 170px 0px 60px;
-    margin-bottom: 75px;
-}
 .main
 {
     display: flex;
+    margin-top: 80px;
 }
 .hero-image-heading
 {
@@ -573,7 +575,7 @@ ul
 }
 .banner-image-two
 {
-    padding: 100px 0px -125px;
+    margin-top: 10px;
 }
 .gradient-colour1
 {
@@ -642,63 +644,139 @@ ul
     background-color: transparent;
     color: #fff;
 }
-.fotter-section
+.footer-section
 {
+    top: 439px;
+    z-index: -1;
     background-color: #030047;
-    padding: 245px 0px 165px;
+    padding: 250px 0px 130px 0px;
 }
-.fotter
+.fotter-part
 {
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
-.left-fotter
+.footer-first-part
 {
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
-.left
+.footer-first-part .first
 {
-    display: block;
+    flex-basis: 25%;
 }
-.left a
+.first h6
 {
-    padding-right: 30px;
+    border-bottom: none;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
-.left a:hover
+.footer-first-part  li a
+{
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: end;
+    list-style: none;
+}
+.footer-first-part li a:hover
 {
     color: #ffcc3e;
     transition: 0.3s all;
 }
-.right-fotter
+.footer-first-part ul
+{
+    border-left: none;
+}
+.right-part
+{
+    flex-basis: 31%;
+}
+.left-part
+{
+    flex-basis: 69%;
+}
+.image-logo
+{
+    max-width: 350px;
+}
+.social-media-logo
 {
     display: flex;
-    width: 100%;
-    margin-right: -1%;
+    align-items: flex-end;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin: 80px 0px 0px 0px;
+    text-align: end;
 }
-.right-fotter .right
+.social-media-logo .link
 {
-    background-image: url(./image/GrowFlow-Dama-Logo-Reversed.svg);
-    max-width: 100%;
-    width: 347px;
-    background-repeat: no-repeat;
-    min-height: auto;
+    flex-basis: 13%;
 }
-.right1
-{
-    margin-bottom: 80px;
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
 }
-.right1 i .facebook::before
-{
+.link .fa-brands {
+    color: #fff;
+    font-size: 22px;
+}
+.fa-facebook-f:before {
     content: "\f39e";
 }
-.right1 i .facebook
+.link ul
 {
-    font-size: 28px;
+    border-left: none;
 }
-.right1 ul
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-youtube:before {
+    content: "\f167";
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.grow-address p
 {
-    list-style-type: none;
-    margin: 0px;
-    text-align: right;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-align: end;
+}
+.policy  ul li a
+{
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.policy  ul li
+{
+    text-align: end;
+}
+.policy ul
+{
+    border-left: none;
+    margin-top: 55px;
 }
 @media (max-width:1024px)
 {
@@ -717,6 +795,10 @@ ul
     .hero-image {
 
         padding: 45px 0;
+}
+.main
+{
+    margin-top: 0px;
 }
 }
 @media (max-width:767px)
@@ -737,14 +819,75 @@ ul
     {
         max-width: 681px;
     }
-    .pop-up-img {
+    .pop-up-img .bg-section{
         background-image: url(./growflowimg/handwave.jpg);
-        min-height: 350px;
+        min-height: auto;
         max-width: 100%;
+        background-size: cover;
     }
     .hero-image
     {
         margin-left: 0;
+        margin-top: 0px;
+    }
+    .fotter-part
+    {
+        display: block;
+    }
+    .footer-first-part
+    {
+        display: block;
+    }
+    .footer-first-part li
+    {
+        line-height: 22px;
+    }
+    .first h6
+    {
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .image-logo
+    {
+        max-width: none;
+    }
+    .social-media-logo
+    {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .social-media-logo .link
+    {
+        flex-basis: 6%;
+    }
+    .grow-address p
+    {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .grow-address
+    {
+        margin-top: 20px;
+    }
+    .policy ul
+    {
+        margin-top: 15px;
+    }
+    .policy ul li
+    {
+        text-align: center;
+    }
+    .footer-section
+    {
+        padding-bottom: 30px;
+        padding-top: 150px;
+    }
+    .tabber
+    {
+        padding: 50px 0px 50px;
     }
 }
 @media(max-width:480px)
@@ -757,10 +900,6 @@ ul
     {
         line-height: 44px;
         font-size:40px
-    }
-    .pop-up-img 
-    {
-        min-height: 233px;
     }
 }
 @media (max-width:1024px)
@@ -779,8 +918,7 @@ ul
 {
     .counter-model
     {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 50px 0px 50px;
     }
     .tabber
     {
@@ -855,12 +993,12 @@ ul
         margin-bottom: 12px;
     }
     .buisness-heading h2 {
-        font-size: 30px;
+        font-size: 38px;
         line-height: 44px;
     }
     .background-image .gradient-colour
     {
-        padding: 50px 0px 50px;
+        padding: 50px 0px 0px;
     }
     .content1
     {
@@ -880,7 +1018,8 @@ ul
     }
     .tabber .mobile-view
     {
-      display: block ;
+      display: block;
+      padding: 13px 20px 13px;
     }
     .tabs
     {
@@ -950,10 +1089,10 @@ ul
     }
     .background-image .gradient-colour::before
     {
-        bottom: -90px;
-    right: 18px;
-    width: 125px;
-    height: 125px;
+        bottom: -115px;
+        right: 18px;
+        width: 125px;
+        height: 125px;
     }
     .left-side h2
     {
@@ -961,7 +1100,7 @@ ul
     }
     .right-side ul li
     {
-        margin-top: 20px;
+        margin-top: 5px;
         padding: 8px 0px 8px 0px;
     }
     .content-data
@@ -970,16 +1109,15 @@ ul
     }
     .content-data .image img
     {
-        width: 20px;
+        width: 30px;
     }
     .slider
     {
-        padding-top: 40px;
+        padding-top: 80px;
     }
     .hero-image-two
     {
         padding-top: 20px;
-        padding-bottom: 20px;
     }
     .main
     {
@@ -997,7 +1135,7 @@ ul
     .head2
     {
         margin-left: 0%;
-        margin-top: 30%;
+        margin-top: 9%;
     }
     .icon
     {
@@ -1012,6 +1150,7 @@ ul
     .gradient-colour1
     {
         padding-top: 70px;
+        padding-bottom: 60px;
     }
     .descripition-three p
     {
@@ -1019,7 +1158,14 @@ ul
     }
     .bg-image5
     {
-        min-height: 305px;
+        min-height: 285px;
+        margin: 0px auto;
+        max-width: 350px;
+        width: 100%;
+    }
+    .banner-image-two
+    {
+        margin-top: 0px;
     }
 }
 @media (max-width:480px)
@@ -1030,10 +1176,7 @@ ul
 }
 @media (max-width:1143px)
 {
-    .tabber-left-heading {
-        margin-left: 34px;
-        margin-bottom: 5px;
-    }
+
     .tabber-list {
         padding-top: 25px;
     }
@@ -1071,4 +1214,28 @@ ul
         margin: 0;
     }
 }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .tabs li.tab-link.current::after
+    {
+        width: 80%;
+    }
+}
+@media (min-width:768px) and (max-width:900px) {
+    .data-text
+    {
+        max-width: 531px;
+    }
+}
+@media (max-width:425px) {
+    .data-text
+    {
+        max-width: 213px;
+    }
+}
+@media (min-width:426px) and (max-width:767px) {
+    .data-text
+    {
+        max-width: 600px;
+    }
 }
